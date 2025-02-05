@@ -1,0 +1,14 @@
+{
+  "name": "makenson/shopping-cart",
+  "description": "A modern PHP shopping cart implementation",
+  "type": "library",
+  "require": {
+    "php": "^8.2",
+    "brick/math": "^0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShoppingCart\\": "src/"
+    }
+  }
+}
